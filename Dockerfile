@@ -15,7 +15,7 @@ RUN pip install --upgrade pip \
  && pip install werkzeug==0.16.1
 
 # copy custom config
-COPY config_local.py /usr/local/lib/python3.6/site-packages/pgadmin4/
+COPY LICENSE config_local.py /usr/local/lib/python3.6/site-packages/pgadmin4/
  
 CMD [ "python", "/usr/local/lib/python3.6/site-packages/pgadmin4/pgAdmin4.py" ]
 
