@@ -1,4 +1,4 @@
-# start from an official image FROM python:3.6
+# start from an official image FROM python:3.6 image
 FROM python:3.6-slim
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
