@@ -19,5 +19,5 @@ COPY config_local.py /usr/local/lib/python3.6/site-packages/pgadmin4/
  
 CMD [ "python", "/usr/local/lib/python3.6/site-packages/pgadmin4/pgAdmin4.py" ]
 
-# expose the port 5050
+# expose port 5050
 EXPOSE 5050
